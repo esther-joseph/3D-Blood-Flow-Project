@@ -11,7 +11,7 @@ public class TurnNodeRed : MonoBehaviour
 {
 
 	//Slider for selected small range for proper cell flow direction 
-	[Range(0.0f, 25.0f)]
+	[Range(-5.0f, 25.0f)]
 	public float angleOfPath;
 
 	void Update()
