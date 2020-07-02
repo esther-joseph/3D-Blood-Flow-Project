@@ -46,9 +46,10 @@ public class follow : MonoBehaviour
 
 		while(tParam < 1)
 		{
-
+			//Animates cell object along path
 			tParam += Time.deltaTime * speedModifier;
 
+			//Cell follows the Bezier formula for path 
 			cellPosition = Mathf.Pow(1 - tParam, 3) * p0 +
 				 3 * Mathf.Pow(1 - tParam, 2) * tParam * p1 +
 				 3 * (1 - tParam)* Mathf.Pow(tParam, 2) * p2 +
@@ -60,6 +61,7 @@ public class follow : MonoBehaviour
 
 		tParam = 0f;
 
+		//If more than one route is present, allow cell object to pass from one path to another
 		routeToGo += 1;
 
 		if (routeToGo > routes.Length - 1)

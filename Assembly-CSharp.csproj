@@ -36,7 +36,8 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\TurnNode.cs" />
+     <Compile Include="Assets\Scripts\TurnNodeBlue.cs" />
+     <Compile Include="Assets\Scripts\TurnNodeRed.cs" />
      <Compile Include="Assets\Scripts\bezier.cs" />
      <Compile Include="Assets\Scripts\cellColorChangeBlue.cs" />
      <Compile Include="Assets\Scripts\cellColorChangeDefault.cs" />
@@ -47,7 +48,6 @@
      <Compile Include="Assets\Scripts\colorDefault.cs" />
      <Compile Include="Assets\Scripts\colorRed.cs" />
      <Compile Include="Assets\Scripts\follow.cs" />
-     <Compile Include="Assets\Scripts\movePieces.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
